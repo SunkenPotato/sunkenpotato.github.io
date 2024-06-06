@@ -1,0 +1,37 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'SunkenPotato'
+
+
+theme = "black"
+
+[markup.goldmark.renderer]
+  unsafe= true
+
+[params]
+  frontimage = "/img/p.jpg"
+
+[params.cards]
+  [params.cards.github]
+    url = "https://github.com/SunkenPotato"
+    icon = "github"
+  [params.cards.youtube]
+    url = "https://youtube.com/@SunkenPotato"
+    icon = "youtube"
+  [params.cards.mail]
+    url = "mailto:3.14radius02@gmail.com"
+    icon = "mail"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
