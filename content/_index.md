@@ -1,7 +1,11 @@
 ---
 ---
+
 # Hey,
 ## I'm SunkenPotato
 \
-\
-I'm somebody you've never known, and never will.
+I build websites, and some small apps for myself. \
+I am really interested in photography
+
+
+Contact me: Check [about](/about)

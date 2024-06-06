@@ -32,3 +32,10 @@ If I'm not at home, I use my M2 MacBook Air.
 ### Camera
 Camera: Sony α6300 \
 Lens: 16-50mm 3.5-5.6ƒ Kit Lens 
+
+{{}}
+
+# Socials
+YouTube: [@SunkenPotato](https://youtube.com/@SunkenPotato) \
+Discord: sunkenpotato
+

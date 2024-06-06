@@ -154,3 +154,7 @@ h1 h2 {
     font-family: "JetBrains Mono", monospace;
 }
 
+#hidden {
+    display: none
+}
+
