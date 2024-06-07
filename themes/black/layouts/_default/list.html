@@ -2,7 +2,7 @@
   <main>
     <section class="post-list">
       <article>
-          <h1 class="h1-special center-text">{{ .Title }}</h1>
+          <h1 class="h1-special center-text">Posts</h1>
         <!-- "{{ .Content }}" pulls from the Markdown content of the corresponding _index.md -->
         {{ .Content }}
       </article>
@@ -20,7 +20,7 @@
             </div>
 
             <p>{{ .Summary }}</p>
-            <a href="{{ .Permalink }}" class="read-more">-> Read more</a>
+            <a href="{{ .Permalink }}" class="read-more anim-link">-> Read more</a>
           </article>
         </li>
         {{ end }}
