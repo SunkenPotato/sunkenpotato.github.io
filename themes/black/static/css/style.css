@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 body {
     background-color: black;
     font-family: Inter;
     font-feature-settings: "zero";
+}
+
+a {
+    box-shadow: inset 0 0 0 3 #ffffff;
+    color: #fff;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+}
+a:hover {
+    color: #000 !important;
+    box-shadow: inset 200px 0 0 0 #ffffff;
 }
 
 .text {
@@ -14,6 +27,10 @@ body {
 
 .index-content {
     margin: 5%;
+}
+
+code {
+    font-family: "Fira Code", monospace;
 }
 
 a {    
@@ -28,6 +45,7 @@ a {
 
 .footer-text {
     font-family: "Space Mono", monospace;
+    color: #434343
 }
 
 .h1-special {
@@ -72,6 +90,9 @@ a {
 h1 h2 {
     color: white
 }
+h1 {
+    font-size: 2rem;
+}
 
 #image-wrapper {
     display: flex;
@@ -79,8 +100,8 @@ h1 h2 {
 }
 
 #image-wrapper img {
-    width: 204px;
-    height: 124px;
+    width: 130px;
+    height: 130px;
 }
 
 .center-text {
@@ -121,6 +142,11 @@ h1 h2 {
     width: 80%;
     padding-left: 10%;
     padding-top: 50px;
+    
+}
+
+.single-content > * {
+    margin-top: 50px;
 }
 
 .post-title {
