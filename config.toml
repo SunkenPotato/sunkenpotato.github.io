@@ -11,6 +11,8 @@ theme = "black"
 [params]
   frontimage = "/img/p.jpg"
 
+
+
 [params.cards]
   [params.cards.github]
     url = "https://github.com/SunkenPotato"
@@ -32,6 +34,18 @@ theme = "black"
     url = "/posts/"
     weight = 2
   [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+    [menu.main.params]
+      disabled = true
+  [[menu.main]]
+    name = "Photography"
+    url = "/photography"
+    weight = 4
+    [menu.main.params]
+      disabled = true
+  [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 5

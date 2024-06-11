@@ -123,37 +123,8 @@ h1 {
     }
 }
 
-.date {
-    padding: 5px;
-    font-family: "JetBrains Mono", monospace;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(78,9,121,1) 50%, rgba(255,0,26,1) 100%);
-    border-radius: 3px;
-    color: black;
-}
 
-.single-meta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.single-content {
-    width: 80%;
-    padding-left: 10%;
-    padding-top: 50px;
-    
-}
-
-.single-content > * {
-    margin-top: 50px;
-}
-
-.post-title {
-    margin-right: 20px;
-    margin-bottom: 0;
-    margin-top: 0
-}
 
 .divider{
     width: 85%;
@@ -165,47 +136,11 @@ h1 {
 }
 
 
-.single-body {
-    padding: 40px
-}
-
-.post-list-meta {
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-
-.post-list-i {
-    transition: box-shadow .5s;
-    background-color: #0a0a0a;
-    margin-right: 50%;
-    margin-left: 7%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border-color: #434343;
-    box-shadow: 5px 5px 15px 5px #505050;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    padding: 50px;
-}
-.post-list-i:hover {
-    box-shadow: 10px 10px 15px 5px #505050;
-}
-
-.post-list-title {
-    padding: 0;
-    max-width: max-content;
-    font-size: 2rem
-}
 
 .about-content {
     margin: 5%;
 }
 
-.read-more {
-    font-family: "JetBrains Mono", monospace;
-}
 
 #hidden {
     display: none

@@ -1,5 +1,9 @@
 {{ define "main" }}
+<div style="display: flex; justify-content: center">
+    <h1 class="text">{{ .Title }}</h1>
+</div>
 <section class="about-content text">
 {{ .Content }}
 </section>
+<section id="direct-content"></section>
 {{ end }}
