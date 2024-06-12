@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+body {
+    background-color: black;
+    font-family: Inter;
+    font-feature-settings: "zero";
+}
+
+a {
+    box-shadow: inset 0 0 0 3 #ffffff;
+    color: #fff;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
+}
+a:hover {
+    color: #000 !important;
+    box-shadow: inset 200px 0 0 0 #ffffff;
+}
+
+.text {
+    color: white;
+}
+
+.index-content {
+    margin: 5%;
+}
+
+code {
+    font-family: "Fira Code", monospace;
+}
+
+a {    
+    /* TODO: fix */
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+#nav-container {
+    margin: 30px
+}
+
+.footer-text {
+    font-family: "Space Mono", monospace;
+    color: #434343
+}
+
+.h1-special {
+    font-size: 4rem
+}
+
+.nav-link {
+    margin: 10px;
+    border: 1px;
+    text-decoration: none;
+    padding: 5px
+}
+
+.anim-link {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+  
+  .anim-link:hover {
+    color: #fff;
+  }
+  
+  .anim-link::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+  }
+  
+  .anim-link:hover::before {
+    transform: scaleX(1);
+  }
+
+h1 h2 {
+    color: white
+}
+h1 {
+    font-size: 2rem;
+}
+
+#image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#image-wrapper img {
+    width: 130px;
+    height: 130px;
+}
+
+.center-text {
+    color: white;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-nav {
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    justify-content: center;
+    align-items: center;
+    a {
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+
+
+.divider{
+    width: 85%;
+    height: 3px;
+    margin: 10px auto;
+    background: #434343;
+    border-radius: 3px;
+    border-bottom: 1px solid black;
+}
+
+
+
+.about-content {
+    margin: 5%;
+}
+
+
+#hidden {
+    display: none
+}
+
+
+
