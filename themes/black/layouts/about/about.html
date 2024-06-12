@@ -1,26 +1,29 @@
 {{ define "main" }}
-
-<head>
-    <link rel="stylesheet" href="/css/about.css">
-    <script src="/js/about.js"></script>
-</head>
-
 <div style="display: flex; justify-content: center">
     <h1 class="text">{{ .Title }}</h1>
 </div>
 <section class="about-content text">
 {{ .Content }}
 
-<section id="contact-sc">
-    <h2>Contact me</h2>
-    <div class="contact-wrapper">
-        <form onsubmit="submitForm()">
-            <input type="text" id="contact-about" placeholder="Subject: ">
-            <input type="text" id="contact-text" placeholder="Hello there">
-            <input type="submit" id="submit-button">
-        </form>
-    </div>
+    <section id="contact-sc">
+        <h2>Contact me</h2>
+        <div class="contact-wrapper">
+            <form id="contact-form">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required><br><br>
+                
+                <label for="field0">Content:</label>
+                <textarea type="text" id="field0" name="content" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        
+        </div>
+    </section>
+
+    <head>
+        <link rel="stylesheet" href="/css/about.css">
+        <script src="/js/about.js"></script>
+    </head>
 </section>
-</section>
-<section id="direct-content"></section>
 {{ end }}
