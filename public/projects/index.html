@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
@@ -48,16 +48,27 @@
 <section class="about-content text">
 
 
-<section id="contact-sc">
-    <div class="contact-wrapper">
-        <form action="">
-            <input type="text" id="contact-from" placeholder="From: ">
-            <input type="text" id="contact-about" placeholder="About: ">
-        </form>
-    </div>
+    <section id="contact-sc">
+        <h2>Contact me</h2>
+        <div class="contact-wrapper">
+            <form id="contact-form">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required><br><br>
+                
+                <label for="field0">Content:</label>
+                <textarea type="text" id="field0" name="content" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        
+        </div>
+    </section>
+
+    <head>
+        <link rel="stylesheet" href="/css/about.css">
+        <script src="/js/about.js"></script>
+    </head>
 </section>
-</section>
-<section id="direct-content"></section>
 
         </div><div class="footer center-text">
     <p class="footer-text">Copyright © 2024 SunkenPotato | Made with <a href="https://gohugo.io" class="footer-text">Hugo</a></p>

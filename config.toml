@@ -29,10 +29,14 @@ theme = "black"
     name = "Home"
     url = "/"
     weight = 1
+    [menu.main.params]
+      disabled = false
   [[menu.main]]
     name = "Posts"
     url = "/posts/"
     weight = 2
+    [menu.main.params]
+      disabled = false
   [[menu.main]]
     name = "Projects"
     url = "/projects/"
@@ -49,3 +53,5 @@ theme = "black"
     name = "About"
     url = "/about/"
     weight = 5
+    [menu.main.params]
+      disabled = false
