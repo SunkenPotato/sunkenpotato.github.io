@@ -48,7 +48,7 @@ theme = "black"
     url = "/photography"
     weight = 4
     [menu.main.params]
-      disabled = true
+      disabled = false
   [[menu.main]]
     name = "About"
     url = "/about/"
