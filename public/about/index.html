@@ -45,7 +45,6 @@
 
 <head>
     <link rel="stylesheet" href="/css/about.css">
-    <script src="/js/about.ts"></script>
 </head>
 
 <div style="display: flex; justify-content: center">
@@ -90,15 +89,22 @@ Lens: 16-50mm 3.5-5.6ƒ Kit Lens</p>
 <section id="contact-sc">
     <h2>Contact me</h2>
     <div class="contact-wrapper">
-        <form onsubmit="submitForm()">
-            <input type="text" id="contact-about" placeholder="Subject: ">
-            <input type="text" id="contact-text" placeholder="Hello there">
-            <input type="submit" id="submit-button">
+        <form id="ctf">
+            <label for="contact-about">Subject: </label>
+            <input type="text" id="contact-about" placeholder="Subject: " required>
+
+            <label for="contact-text">Body: </label>
+            <input type="text" id="contact-text" placeholder="Hello there" required>
+
+            <label for="reply">Contact me at: </label>
+            <input type="text" id="reply" placeholder="Contact me at:" required>
+            <input type="submit">
         </form>
+        <span id="success" style="display: none">Thank you for reaching out to me. I will be in contact with you as soon as possible.</span>
     </div>
 </section>
 </section>
-<section id="direct-content"></section>
+<script src="/js/about.js" defer></script>
 
         </div><div class="footer center-text">
     <p class="footer-text">Copyright © 2024 SunkenPotato | Made with <a href="https://gohugo.io" class="footer-text">Hugo</a></p>
