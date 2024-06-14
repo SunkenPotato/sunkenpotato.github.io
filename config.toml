@@ -26,31 +26,31 @@ theme = "black"
 
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "home"
     url = "/"
     weight = 1
     [menu.main.params]
       disabled = false
   [[menu.main]]
-    name = "Posts"
+    name = "posts"
     url = "/posts/"
     weight = 2
     [menu.main.params]
       disabled = false
   [[menu.main]]
-    name = "Projects"
+    name = "projects"
     url = "/projects/"
     weight = 3
     [menu.main.params]
       disabled = true
   [[menu.main]]
-    name = "Photography"
+    name = "photography"
     url = "/photography"
     weight = 4
     [menu.main.params]
       disabled = false
   [[menu.main]]
-    name = "About"
+    name = "about"
     url = "/about/"
     weight = 5
     [menu.main.params]
