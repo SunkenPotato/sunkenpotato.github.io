@@ -16,10 +16,7 @@ a {
     margin: 0 -.25rem;
     transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
 }
-a:hover {
-    color: #000 !important;
-    box-shadow: inset 200px 0 0 0 #ffffff;
-}
+
 
 .text {
     color: white;
@@ -33,11 +30,7 @@ code {
     font-family: "Fira Code", monospace;
 }
 
-a {    
-    /* TODO: fix */
-    color: aliceblue;
-    text-decoration: underline;
-}
+
 
 #nav-container {
     margin: 30px
@@ -57,6 +50,10 @@ a {
     border: 1px;
     text-decoration: none;
     padding: 5px
+}
+
+.nav-link.active {
+    color: #007474
 }
 
 .anim-link {
