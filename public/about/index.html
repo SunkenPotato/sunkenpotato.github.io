@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -45,6 +45,7 @@
 
 <head>
     <link rel="stylesheet" href="/css/about.css">
+    <script src="/js/about.ts"></script>
 </head>
 
 <div style="display: flex; justify-content: center">
@@ -85,6 +86,17 @@ Lens: 16-50mm 3.5-5.6ƒ Kit Lens</p>
 </li>
 </ul>
 
+
+<section id="contact-sc">
+    <h2>Contact me</h2>
+    <div class="contact-wrapper">
+        <form onsubmit="submitForm()">
+            <input type="text" id="contact-about" placeholder="Subject: ">
+            <input type="text" id="contact-text" placeholder="Hello there">
+            <input type="submit" id="submit-button">
+        </form>
+    </div>
+</section>
 </section>
 
         </div><div class="footer center-text">

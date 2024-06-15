@@ -1,12 +1,12 @@
 ---
 ---
 
-# Hey,
-## I'm SunkenPotato
+# hey,
+## i'm SunkenPotato
 
-I build websites, and some small apps for myself. \
-I am really interested in photography, but still a beginner. \
-I also play guitar as a hobby. \
+i build websites, and some small apps for myself. \
+i am really interested in photography, but still a beginner. \
+i also play guitar as a hobby. \
 {{<divider>}}
 
-Contact me: Check [about](/about)
+contact me: check [about](/about)

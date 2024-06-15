@@ -1,0 +1,13 @@
+<div id="photo-gallery">
+    {{ $photos := readDir "static/photos"}}
+    {{ range $photos }}
+        <div class="image-wrapper">
+            <a href="/photos/{{ .Name }}" class="excl">
+            <img src="/photos/{{ .Name }}" alt="{{ .Name }}" class="image">
+            </a>
+            <nav>
+                <a href="/photos/{{ .Name }}" download class="excl"><i data-feather="download"></i></a>
+            </nav>
+        </div>
+    {{ end }}
+</div>
