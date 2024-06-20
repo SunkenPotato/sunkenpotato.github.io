@@ -2,7 +2,6 @@
 
 <head>
     <link rel="stylesheet" href="/css/about.css">
-    <script src="/js/about.js"></script>
 </head>
 
 <div style="display: flex; justify-content: center">
@@ -13,13 +12,18 @@
 </section>
 <section class="contact text">
     <div id="form-wrapper">
-        <form>
-            <label for="contact-reply">From: </label>
-            <br>
-            <input type="text" id="contact-reply">
-            <br>
+        <form id="contact-form">
+            <label for="contact-from">From: </label>
+            <input type="text" id="contact-from">
             
+            <label for="contact-about">Subject: </label>
+            <input type="text" id="contact-about">
+            <br>
+            <textarea id="contact-body"></textarea>
+
+            <input type="submit">
         </form>
     </div>
 </section>
+<script src="/js/about.js"></script>
 {{ end }}
