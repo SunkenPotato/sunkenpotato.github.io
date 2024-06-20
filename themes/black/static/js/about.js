@@ -15,4 +15,7 @@ document.getElementById('contact-form').addEventListener('submit', async (evt) =
         from: fromField
     }))
 
+    document.getElementById('contact-form').style.display = 'none'
+    document.getElementById('info-text').style.display = 'block'
+
 })

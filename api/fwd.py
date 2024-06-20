@@ -14,7 +14,6 @@ server_addr = os.environ.get("SMTP_SERVER")
 
 
 def send_email(subject: str, body: str, reply: str):
-    print("Send email called")
 
     body = "Reply at: " + reply + "\n" + body
 
@@ -35,14 +34,28 @@ def send_email(subject: str, body: str, reply: str):
     
         server.sendmail(sender, reciever, text)
 
-        return 200
+        return True
     except Exception as e:
         print(f"An unexpected error ocurred: {e}")
-        return 500
+        return False
+    finally: 
+        server.quit()
 
-    finally: server.quit()
+    
 
 class handler(BaseHTTPRequestHandler):
+
+    def end_headers(self):
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Access-Control-Allow-Methods', '*')
+        self.send_header('Access-Control-Allow-Headers', '*')
+        self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate')
+        return super(handler, self).end_headers()
+    
+    def do_OPTIONS(self):
+        self.send_response(200)
+        self.end_headers()
+
     def do_POST(self):
         print(f"Request recieved from {self.client_address[0]}")
 
@@ -71,7 +84,7 @@ class handler(BaseHTTPRequestHandler):
             self.send_response_only(400, 'Check if all fields have been submitted correctly')
             return
         
-        if send_email(about, body, reply) == 200:
+        if send_email(about, body, reply):
             self.send_response_only(200)
             return
         
