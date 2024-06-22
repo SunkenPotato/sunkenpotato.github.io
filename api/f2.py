@@ -25,8 +25,9 @@ def send_email(subject: str, body: str, reply: str):
     message.attach(MIMEText(body, 'plain'))
 
     try:
-        server = smtplib.SMTP(server_addr, 587)
-    
+        server = smtplib.SMTP()
+
+        server.connect(server_addr, 587)
         server.starttls()
         server.login(sender, password)
     
@@ -38,8 +39,7 @@ def send_email(subject: str, body: str, reply: str):
     except Exception as e:
         print(f"An unexpected error ocurred: {e}")
         return False
-    finally: 
-        server.quit()
+    
 
     
 
