@@ -11,3 +11,8 @@
         margin: 0 !important;
     }
 }
+
+.head-wrapper {
+    display: flex;
+    justify-content: center;
+}

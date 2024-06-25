@@ -53,7 +53,7 @@ code {
 }
 
 .nav-link.active {
-    color: #007474
+    color: var(--animate-color)
 }
 
 .anim-link {
@@ -63,7 +63,7 @@ code {
 }
   
   .anim-link:hover {
-    color: #fff;
+    color: var(--animate-color);
   }
   
   .anim-link::before {

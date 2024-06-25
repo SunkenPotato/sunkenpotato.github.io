@@ -2,9 +2,9 @@ document.getElementById('contact-form').addEventListener('submit', async (evt) =
 
     evt.preventDefault()
 
-    const aboutField = document.getElementById('contact-about').value
-    const fromField = document.getElementById('contact-from').value
-    const bodyField = document.getElementById('contact-body').value
+    const aboutField = document.getElementById('contact-about')
+    const fromField = document.getElementById('contact-from')
+    const bodyField = document.getElementById('contact-body')
 
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "/api/forward_email")
@@ -15,7 +15,17 @@ document.getElementById('contact-form').addEventListener('submit', async (evt) =
         from: fromField
     }))
 
+    var infoText = document.getElementById('info-text')
+
+    infoText.style.display = 'block'
+
+    if (xhr.status == 200) {
+        infoText.innerHTML = "An unexpected error occurred. Please report this error to the developer."
+        return;
+    }
+
+
     document.getElementById('contact-form').style.display = 'none'
-    document.getElementById('info-text').style.display = 'block'
+    
 
 })

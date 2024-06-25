@@ -43,6 +43,12 @@ def send_email(subject: str, body: str, reply: str):
 
 @app.route('/api/forward_email', methods=['POST'])
 def forward():
+    
+    client_address = request.environ['REMOTE_ADDR']
+    print(client_address)
+
+    return Response("", 200)
+
     data = request.get_data()
     print(data)
     jsdata = json.loads(request.get_data().decode())

@@ -42,7 +42,7 @@ theme = "black"
     url = "/projects/"
     weight = 3
     [menu.main.params]
-      disabled = true
+      disabled = false
   [[menu.main]]
     name = "photography"
     url = "/photography"
