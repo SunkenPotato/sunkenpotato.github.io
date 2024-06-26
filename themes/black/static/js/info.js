@@ -1,4 +1,8 @@
+var errCount = 0;
 
+window.addEventListener('error', function(event) {
+    errCount += 1;
+})
 
 async function updateAll() {
     const response = await githubAPIrequest("/api/gh_api?url=https://api.github.com/repos/SunkenPotato/sunkenpotato.github.io/commits");
