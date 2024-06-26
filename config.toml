@@ -55,3 +55,9 @@ theme = "black"
     weight = 5
     [menu.main.params]
       disabled = false
+
+  [[menu.main]]
+    name = "info"
+    url = "/info/"
+    weight = 6
+    

@@ -40,3 +40,30 @@
 .project-title:hover {
     background-color: rgba(240, 240, 240, 0.5)
 }
+
+.legend {
+    margin: 200px 5%;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow
+}
+
+.orange {
+    color: #DC4D01
+}
+
+table, th, td{
+    padding: 10px;
+    border-collapse: collapse;
+    border-style: groove;
+    border-color: white 1px;
+}

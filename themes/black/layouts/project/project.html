@@ -9,5 +9,32 @@
     <section class="main-content text">
         {{ .Content }}
     </section>
+    
+    <section class="main-content text legend">
+        <h3>What do the colors mean?</h3>
+        <p>The colors next to the project names stand for the current state of the project.</p>
+        <table>
+            <tr>
+                <th>Colour</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td class="green">&#x25CF</td>
+                <td>This project is currently finished or at a stable version.</td>
+            </tr>
+            <tr>
+                <td class="yellow">&#x25CF</td>
+                <td>This project is currently under development and / or not accessible to the public yet.</td>
+            </tr>
+            <tr>
+                <td class="red">&#x25CF</td>
+                <td>This project has been abandoned.</td>
+            </tr>
+            <tr>
+                <td class="orange">&#x25CF</td>
+                <td>I'm taking a break from working on this project / or something else.</td>
+            </tr>
+        </table>
+    </section>
 
 {{ end }}
