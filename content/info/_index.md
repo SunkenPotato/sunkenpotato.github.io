@@ -1,6 +1,6 @@
 ---
 title: "Info"
-draft: true
+draft: false
 type: "empty"
 layout: "empty"
 ---
