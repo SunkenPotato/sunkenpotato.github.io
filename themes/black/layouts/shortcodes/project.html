@@ -1,4 +1,19 @@
+{{ $mode := .Get "state" }}
+{{ $parsed := "green" }}
+{{ if eq $mode "2" }} <!-- In development -->
+    {{ $parsed = "yellow" }}
+{{ else if eq $mode "3" }} <!-- Planned -->
+    {{ $parsed = "red" }}
+{{ else if eq $mode "4"}}
+    {{ $parsed = "#DC4D01" }} <!-- Dynamic -->
+{{ end }}
+
 <div class="project-card">
-    <h2>{{ .Get "tl" }}</h2>
-    <p>{{ .Get "ct" }}</p>
+    <span>  
+        <a href="{{ .Get "link" }}" class="p-title-link">
+            <p class="project-title">{{ .Get "title" }}</p>
+        </a>
+        <span style="color: {{$parsed}}">&#x25CF;</span>
+    </span>
+    <p class="project-summary">{{ .Get "summary" }}</p> 
 </div>
