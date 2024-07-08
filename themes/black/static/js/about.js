@@ -1,6 +1,7 @@
 document.getElementById('contact-form').addEventListener('submit', async (evt) => {
 
     evt.preventDefault()
+    document.getElementById('contact-form').style.display = 'none'
 
     const aboutField = document.getElementById('contact-about').value
     const fromField = document.getElementById('contact-from').value
@@ -31,7 +32,6 @@ document.getElementById('contact-form').addEventListener('submit', async (evt) =
             infoText.innerHTML = "An unexpected error occurred. Please report this error to the developer."
             return;
         }
-        document.getElementById('contact-form').style.display = 'none'
     };
 
 })

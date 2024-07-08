@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photography on SunkenPotato</title>
-    <link>http://example.org/photography/</link>
+    <link>http://localhost:59952/photography/</link>
     <description>Recent content in Photography on SunkenPotato</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/photography/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:59952/photography/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

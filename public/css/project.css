@@ -1,13 +1,69 @@
 .project-card {
-    display: inline-block;
-    border-color: #fff;
-    border-style: solid;
-    border-width: 1px;
-    padding: 10px;
-    margin-left: 3%;
-    margin-right: 3%;
+    
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
 
-    h2 {
-        margin: 0 !important;
-    }
+.project-title {
+    font-weight: 700;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.p-title-link {
+    text-decoration: none;
+}
+
+.project-summary {
+    color: rgba(240, 240, 240, 0.7)
+}
+
+.head-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-wrapper {
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150px;
+}
+
+
+.project-title:hover {
+    background-color: rgba(240, 240, 240, 0.5)
+}
+
+.legend {
+    margin: 200px 5%;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow
+}
+
+.orange {
+    color: #DC4D01
+}
+
+table, th, td{
+    padding: 10px;
+    border-collapse: collapse;
+    border-style: groove;
+    border-color: white 1px;
 }
