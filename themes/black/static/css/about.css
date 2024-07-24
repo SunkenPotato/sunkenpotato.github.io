@@ -37,3 +37,10 @@ textarea {
     border-width: 3px;
     border-radius: 3px;
 }
+
+#email {
+    padding: 5px;
+    margin: 5px;
+    background: #242323;
+    border-radius: 5px;
+}
