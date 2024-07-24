@@ -2,28 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on SunkenPotato</title>
-    <link>http://example.org/posts/</link>
+    <link>http://localhost:59952/posts/</link>
     <description>Recent content in Posts on SunkenPotato</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2024 21:15:08 +0200</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jun 2024 21:29:51 +0200</lastBuildDate>
+    <atom:link href="http://localhost:59952/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WWDC 2024</title>
+      <link>http://localhost:59952/posts/wwdc/</link>
+      <pubDate>Mon, 10 Jun 2024 21:29:51 +0200</pubDate>
+      <guid>http://localhost:59952/posts/wwdc/</guid>
+      <description>My thoughts on WWDC 2024 Chapter I: visionOS Apple introduces visionOS 2 as a major successor to visionOS 1,</description>
+    </item>
     <item>
       <title>Post 2</title>
-      <link>http://example.org/posts/post2/</link>
+      <link>http://localhost:59952/posts/post2/</link>
       <pubDate>Thu, 06 Jun 2024 21:15:08 +0200</pubDate>
-      
-      <guid>http://example.org/posts/post2/</guid>
+      <guid>http://localhost:59952/posts/post2/</guid>
       <description>I play guitar, too. I&amp;rsquo;m just saying</description>
     </item>
-    
     <item>
       <title>Post 1</title>
-      <link>http://example.org/posts/post1/</link>
+      <link>http://localhost:59952/posts/post1/</link>
       <pubDate>Thu, 06 Jun 2024 20:25:28 +0200</pubDate>
-      
-      <guid>http://example.org/posts/post1/</guid>
+      <guid>http://localhost:59952/posts/post1/</guid>
       <description>This is a post. If you see it rendered, wow.</description>
     </item>
-    
   </channel>
 </rss>

@@ -3,8 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
+
+@font-face {
+    font-family: "Geist Mono";
+    src: url("/font/GeistMono-Regular.ttf");
+}
+
 body {
-    background-color: black;
+    background-color: #000000 !important;
     font-family: Inter;
     font-feature-settings: "zero";
 }
@@ -27,7 +33,7 @@ a {
 }
 
 code {
-    font-family: "Fira Code", monospace;
+    font-family: "Geist Mono", monospace;
 }
 
 
@@ -37,7 +43,7 @@ code {
 }
 
 .footer-text {
-    font-family: "Space Mono", monospace;
+    font-family: "Fira Code", monospace;
     color: #434343
 }
 
@@ -53,7 +59,7 @@ code {
 }
 
 .nav-link.active {
-    color: #007474
+    color: var(--animate-color)
 }
 
 .anim-link {
@@ -63,7 +69,7 @@ code {
 }
   
   .anim-link:hover {
-    color: #fff;
+    color: var(--animate-color);
   }
   
   .anim-link::before {
