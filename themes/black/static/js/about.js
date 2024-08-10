@@ -1,7 +1,7 @@
 document.getElementById('contact-form').addEventListener('submit', async (evt) => {
 
     evt.preventDefault()
-    document.getElementById('contact-form').style.display = 'none'
+    
 
     const aboutField = document.getElementById('contact-about').value
     const fromField = document.getElementById('contact-from').value
@@ -12,6 +12,7 @@ document.getElementById('contact-form').addEventListener('submit', async (evt) =
         alert("Please complete the reCAPTCHA.");
         return;
     }
+    document.getElementById('contact-form').style.display = 'none'
 
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "/api/forward_email")
