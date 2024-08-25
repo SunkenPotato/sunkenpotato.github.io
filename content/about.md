@@ -39,4 +39,5 @@ Lens: 16-50mm 3.5-5.6ƒ Kit Lens
 # Socials
 * YouTube: [@SunkenPotato](https://youtube.com/@SunkenPotato) 
 * <details><summary>Discord: </summary>sunkenpotato</details>
+* [Discord Server](https://discord.gg/PJ2uSgMFWn)
 
