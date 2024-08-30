@@ -17,12 +17,11 @@ body {
 
 a {
     box-shadow: inset 0 0 0 3 #ffffff;
-    color: #fff;
+    color: #fff !important;
     padding: 0 .25rem;
     margin: 0 -.25rem;
     transition: color .8s ease-in-out, box-shadow .8s ease-in-out;
 }
-
 
 .text {
     color: white;

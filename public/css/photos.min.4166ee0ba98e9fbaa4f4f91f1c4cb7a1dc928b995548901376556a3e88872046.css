@@ -1,0 +1,1 @@
+.photo-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.image-wrapper{width:30%;height:30%}
