@@ -3,12 +3,15 @@ languageCode = "en-us"
 theme = "terminal"
 paginate = 5
 
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
 [params]
   contentTypeName = "posts"
   showMenuItems = 4
   showLanguageSelector = false
-  fullWidthTheme = true
-  centerTheme = false
+  fullWidthTheme = false
+  centerTheme = true
 
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
@@ -20,7 +23,7 @@ paginate = 5
   showLastUpdated = false
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
+  updatedDatePrefix = "Updated"
 
   # whether to show a page's estimated reading time
   # readingTime = false # default
@@ -50,7 +53,7 @@ paginate = 5
       subtitle = "SunkenPotato's website"
       owner = "SunkenPotato"
       keywords = ""
-      copyright = ""
+      copyright = "2024 SunkenPotato"
       menuMore = "Show more"
       readMore = "Read more"
       readOtherPosts = "Read other posts"
@@ -78,6 +81,10 @@ paginate = 5
           identifier = "photos"
           name = "Photography"
           url = "/photos"
+        [[languages.en.menu.main]]
+          identifier = "projects"
+          name = "Projects"
+          url = "/projects"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,

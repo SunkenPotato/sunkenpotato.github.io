@@ -4,7 +4,7 @@ title: "About"
 draft: false
 ---
 # Website
-The theme is [Terminal](https://github.com/panr/hugo-terminal-theme) by panr. I had another self-made theme before, but since I'm not great at CSS, I decided to use this.
+The theme is [Terminal](https://github.com/panr/hugo-theme-terminal) by panr. I had another self-made theme before, but since I'm not great at CSS, I decided to use this.
 # Gear
 I do most of my work on my PC, but lately I'm using my Mac more often too. \
 PC:

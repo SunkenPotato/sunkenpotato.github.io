@@ -8,13 +8,60 @@
     <language>en</language>
     <lastBuildDate>Fri, 30 Aug 2024 20:00:12 +0200</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>New Website</title>
+      <link>//localhost:1313/posts/post1/</link>
+      <pubDate>Sat, 31 Aug 2024 08:56:37 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/post1/</guid>
+      <description>As some may know, I had another website before this. I made it myself, since I thought,
+you know, maybe I&amp;rsquo;ll be good at CSS&amp;hellip;(?)
+Nope. I&amp;rsquo;m awful at CSS. The elements were overflowing, grid elements not filling grids, etc., etc. So I&amp;rsquo;m using the Terminal theme instead by panr. It&amp;rsquo;s looking pretty good for now, and I&amp;rsquo;m happy about how it&amp;rsquo;s turned out.
+I&amp;rsquo;m now working on a Cloud-storage application called Homebase, made in Rust and Java(FX).</description>
+      <content>&lt;p&gt;As some may know, I had another website before this. I made it myself, since I thought,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;you know, maybe I&amp;rsquo;ll be good at CSS&amp;hellip;(?)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Nope. I&amp;rsquo;m &lt;strong&gt;awful&lt;/strong&gt; at CSS. The elements were overflowing, grid elements not filling grids, etc., etc. &lt;br&gt;
+So I&amp;rsquo;m using the &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal&#34;&gt;Terminal&lt;/a&gt; theme instead by &lt;a href=&#34;https://github.com/panr&#34;&gt;panr&lt;/a&gt;.
+It&amp;rsquo;s looking pretty good for now, and I&amp;rsquo;m happy about how it&amp;rsquo;s turned out.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m now working on a Cloud-storage application called Homebase, made in Rust and Java(FX).
+If you&amp;rsquo;re interested, either follow my irregular postings here, or join my Discord Server &lt;br&gt;
+&lt;br&gt;
+Have a nice day&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>//localhost:1313/about/</link>
-      <pubDate>Fri, 30 Aug 2024 22:19:11 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/about/</guid>
-      <description></description>
-      <content></content>
+      <description>Website The theme is Terminal by panr. I had another self-made theme before, but since I&amp;rsquo;m not great at CSS, I decided to use this.
+Gear I do most of my work on my PC, but lately I&amp;rsquo;m using my Mac more often too. PC:
+GPU: NVIDIA RTX 4060Ti CPU: Ryzen 9 7900X RAM: 32GB DDR5 Storage: 1TB M.2 NVMe SSD Case: Fractal Define Mac: MacBook M2 16GB
+Camera Sony α6300, and 16-50mm 3.</description>
+      <content>&lt;h1 id=&#34;website&#34;&gt;Website&lt;/h1&gt;
+&lt;p&gt;The theme is &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal&#34;&gt;Terminal&lt;/a&gt; by panr. I had another self-made theme before, but since I&amp;rsquo;m not great at CSS, I decided to use this.&lt;/p&gt;
+&lt;h1 id=&#34;gear&#34;&gt;Gear&lt;/h1&gt;
+&lt;p&gt;I do most of my work on my PC, but lately I&amp;rsquo;m using my Mac more often too. &lt;br&gt;
+PC:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GPU: NVIDIA RTX 4060Ti&lt;/li&gt;
+&lt;li&gt;CPU: Ryzen 9 7900X&lt;/li&gt;
+&lt;li&gt;RAM: 32GB DDR5&lt;/li&gt;
+&lt;li&gt;Storage: 1TB M.2 NVMe SSD&lt;/li&gt;
+&lt;li&gt;Case: Fractal Define&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mac: MacBook M2 16GB&lt;/p&gt;
+&lt;h2 id=&#34;camera&#34;&gt;Camera&lt;/h2&gt;
+&lt;p&gt;Sony α6300, and 16-50mm 3.5-5.6f Kit Lens&lt;/p&gt;
+&lt;h1 id=&#34;socials--contact&#34;&gt;Socials / Contact&lt;/h1&gt;
+&lt;p&gt;Discord: sunkenpotato &lt;br&gt;
+&lt;a href=&#34;https://discord.gg/PJ2uSgMFWn&#34;&gt;Discord Server&lt;/a&gt; &lt;br&gt;
+YouTube: &lt;a href=&#34;https://youtube.com/@SunkenPotato&#34;&gt;@SunkenPotato&lt;/a&gt; &lt;br&gt;
+E-Mail: &lt;a href=&#34;mailto:3.14radius02@gmail.com&#34;&gt;3.14radius02@gmail.com&lt;/a&gt;&lt;/p&gt;
+</content>
     </item>
     
     <item>

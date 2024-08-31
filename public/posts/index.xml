@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on SunkenPotato</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on SunkenPotato</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 Aug 2024 08:56:37 +0200</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Website</title>
+      <link>//localhost:1313/posts/post1/</link>
+      <pubDate>Sat, 31 Aug 2024 08:56:37 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/post1/</guid>
+      <description>As some may know, I had another website before this. I made it myself, since I thought,
+you know, maybe I&amp;rsquo;ll be good at CSS&amp;hellip;(?)
+Nope. I&amp;rsquo;m awful at CSS. The elements were overflowing, grid elements not filling grids, etc., etc. So I&amp;rsquo;m using the Terminal theme instead by panr. It&amp;rsquo;s looking pretty good for now, and I&amp;rsquo;m happy about how it&amp;rsquo;s turned out.
+I&amp;rsquo;m now working on a Cloud-storage application called Homebase, made in Rust and Java(FX).</description>
+      <content>&lt;p&gt;As some may know, I had another website before this. I made it myself, since I thought,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;you know, maybe I&amp;rsquo;ll be good at CSS&amp;hellip;(?)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Nope. I&amp;rsquo;m &lt;strong&gt;awful&lt;/strong&gt; at CSS. The elements were overflowing, grid elements not filling grids, etc., etc. &lt;br&gt;
+So I&amp;rsquo;m using the &lt;a href=&#34;https://github.com/panr/hugo-theme-terminal&#34;&gt;Terminal&lt;/a&gt; theme instead by &lt;a href=&#34;https://github.com/panr&#34;&gt;panr&lt;/a&gt;.
+It&amp;rsquo;s looking pretty good for now, and I&amp;rsquo;m happy about how it&amp;rsquo;s turned out.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m now working on a Cloud-storage application called Homebase, made in Rust and Java(FX).
+If you&amp;rsquo;re interested, either follow my irregular postings here, or join my Discord Server &lt;br&gt;
+&lt;br&gt;
+Have a nice day&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
