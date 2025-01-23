@@ -1,3 +1,6 @@
+---
+title: ""
+---
 The following license is a custom template restrictive license prohibiting:
 * Redistribution without explicit permission
 * Modification without explicit permission
