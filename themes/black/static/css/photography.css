@@ -1,0 +1,40 @@
+.main-content {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+.head-wrapper {
+    margin-left: 10%;
+}
+
+.about-content {
+    margin: 0;
+}
+
+#photography-and-i {
+    font-weight: 400;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.image-wrapper {
+    display: inline-block;
+}
+
+.image {
+    width: 300px;
+    margin: 20px;
+    border-color: white;
+    border-style: solid;
+}
+
+.excl:hover {
+    box-shadow: none !important;
+    color: currentColor !important;
+}
+

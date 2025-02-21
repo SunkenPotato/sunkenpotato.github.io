@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<head>
+    <link rel="stylesheet" href="/css/about.css">
+</head>
+
+<div style="display: flex; justify-content: center">
+    <h1 class="text">{{ .Title }}</h1>
+</div>
+<section class="about-content text">
+{{ .Content }}
+</section>
+<section class="contact text">
+    <div id="form-wrapper">
+        <h2>Contact me</h2>
+        <!--<form id="contact-form">
+            <label for="contact-from">From: </label>
+            <input type="text" id="contact-from" required>
+            
+            <label for="contact-about">Subject: </label>
+            <input type="text" id="contact-about" required>
+            <br>
+            <textarea id="contact-body" required></textarea>
+
+            <div class="g-recaptcha" data-sitekey="6LfujwcqAAAAAAr0NDVtpkMSRE5boaStIOugsP9N"></div>
+
+            <br>
+            <input type="submit">
+        </form>
+    </div>-->
+    <details>
+        <summary>Email</summary>
+        <br>
+        <a href=""><code id="email">N/A</code></a>
+    </details>
+</section>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="/js/about.js"></script>
+{{ end }}

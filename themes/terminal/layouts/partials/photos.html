@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="css/photos.css" />
+<!-- AE -- !-->
+<div class="photo-gallery">
+  {{ $photos := readDir "static/photos"}} {{ range $photos }}
+  <div class="image-wrapper">
+    <a href="/photos/{{ .Name }}" class="excl">
+      <img src="/photos/{{ .Name }}" alt="{{ .Name }}" class="image" />
+    </a>
+  </div>
+  {{ end }}
+</div>

@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/jquery": "^3.5.30"
+  },
+  "dependencies": {
+    "octokit": "^4.0.2",
+    "requirejs": "^2.3.6",
+    "vercel": "^34.2.7"
+  },
+  "type": "module"
+}

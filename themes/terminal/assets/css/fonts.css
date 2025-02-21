@@ -1,0 +1,19 @@
+@font-face {
+  font-display: swap;
+  font-family: "Rec Mono Linear";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/RecursiveMonoLnrSt-Med.woff2") format("woff");
+  font-feature-settings: "liga", "tnum", "ss01", "locl";
+  font-variant-ligatures: contextual;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Rec Mono Linear";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/RecursiveMonoLnrSt-Bold.woff2") format("woff");
+  font-feature-settings: "liga", "tnum", "ss01", "locl";
+  font-variant-ligatures: contextual;
+}
