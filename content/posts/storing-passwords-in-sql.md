@@ -10,11 +10,12 @@ description = "A hacky way to keep your backup codes and passwords safe"
 showFullContent = false
 readingTime = false
 hideComments = false
+draft = true
 +++
 
-## Intro 
+## Intro
 I'm sure everyone has had that moment where you create an account
-for something and then you have to write down the password somewhere, or store it in a password manager. 
+for something and then you have to write down the password somewhere, or store it in a password manager.
 
 Or, you had to store those backup keys for 2FA, and those are very annoying to remember,
 and even when they do give you a file to download, they're always named \
@@ -69,14 +70,14 @@ INSERT INTO backup_codes (service, value) VALUES (2, 'RG8gbWUgYSBmYXZvciBhbmQgam
 ```
 And now, we can filter them by ID / name using SQL's `LEFT JOIN`
 ```sql
-SELECT backup_codes.service, backup_codes.value, backupcode_services.name 
+SELECT backup_codes.service, backup_codes.value, backupcode_services.name
     FROM backup_codes
-    LEFT JOIN backupcode_services 
+    LEFT JOIN backupcode_services
         ON backupcode_services.id=backup_codes.service
     WHERE backupcode_services.name='discord.com'; -- Or by id
 
 -- This returns the following table:
- service |                    value                     |    name     
+ service |                    value                     |    name
 ---------+----------------------------------------------+-------------
        1 | aXMgYW55b25lIGdvaW5nIHRvIGRlY29kZSB0aGlzPw== | discord.com
        1 | R29vZCBqb2IsIHlvdSd2ZSBkZWNvZGVkIHR3b1wh     | discord.com
@@ -88,5 +89,3 @@ Is this secure? I don't know, probably a bit.
 Is this useful? No, probably not.
 
 Is it **cool**? Yes.
-
-
