@@ -3,6 +3,10 @@ title: ""
 date: 2024-08-30T20:00:12+02:00
 draft: false
 ---
+# Global warming
+<script src="https://climateclock.world/widget-v2.js" async></script>
+<climate-clock><climate-clock />
+
 # Who?
 Hi, I'm SunkenPotato.
 
