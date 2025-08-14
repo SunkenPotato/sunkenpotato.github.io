@@ -1,7 +1,9 @@
 ---
 title: "Photos"
 ---
-I love photography in general, but stills and landscape are probably my favorite, I will try anything though. \
-I use a Sony α6300 and a 16-50mm 3.5-5.6ƒ, and Lightroom for editing.
+My personal photo dump. If you want to use any of these images, you're welcome to,
+as long as you credit me when you do.
+
+All of the following photos are licensed under [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
 
 {{<photos>}}
