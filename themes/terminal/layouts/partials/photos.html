@@ -1,12 +1,14 @@
 <link rel="stylesheet" href="css/photos.css" />
 <!-- AE -- !-->
 <div class="photo-gallery">
-  {{ $photos := readDir "static/photos" }} {{ $sorted := sort $photos "ModTime" "desc" }} {{ range
-  $sorted }}
+  {{ $bundle := .Site.GetPage "page" "photos" }} {{ $images := $bundle.Resources.ByType "image" }}
+  {{ if $images }} {{ $sorted := sort $images ".Exif.Date" "desc" }} {{ range $sorted }}
   <div class="image-wrapper">
-    <a href="/photos/{{ .Name }}" class="excl">
-      <img src="/photos/{{ .Name }}" alt="{{ .Name }}" class="image" />
+    <a href="{{ .RelPermalink }}" class="excl">
+      <img src="{{ .RelPermalink }}" alt="{{ .Name }}" class="image" />
     </a>
   </div>
+  {{ end }} {{ else }}
+  <p>No images found.</p>
   {{ end }}
 </div>
