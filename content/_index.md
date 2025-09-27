@@ -7,7 +7,7 @@ draft: false
 Hi, I'm SunkenPotato.
 
 # What?
-I do [Photography](/photos) and a fair bit of programming.
+I do [Photography](/photos) and a fair bit of programming. You can find my GitHub account at [github.com/SunkenPotato](https://github.com/SunkenPotato).
 
 # Contact me
 You can send me an email here, I'll do my best to respond as soon as possible.
