@@ -7,6 +7,7 @@
     <a href="{{ .RelPermalink }}" class="excl">
       <img src="{{ .RelPermalink }}" alt="{{ .Name }}" class="image" />
     </a>
+    <span class="image-desc"><i>{{ .Exif.Tags.ImageDescription }}</i></span>
   </div>
   {{ end }} {{ else }}
   <p>No images found.</p>
