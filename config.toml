@@ -1,17 +1,19 @@
 baseurl = "/"
 languageCode = "en-us"
-theme = "terminal"
+theme = "clean"
 pagerSize = 5
 
 [markup.goldmark.renderer]
 unsafe = true # Allow HTML in md files
+
+[markup.highlight]
+noClasses = false
 
 [params]
 contentTypeName = "posts"
 showMenuItems = 4
 showLanguageSelector = false
 fullWidthTheme = false
-centerTheme = true
 
 # if your resource directory contains an image called `cover.(jpg|png|webp)`,
 # then the file will be used as a cover automatically.
@@ -26,7 +28,7 @@ showLastUpdated = false
 updatedDatePrefix = "Updated"
 
 # whether to show a page's estimated reading time
-# readingTime = false # default
+readingTime = true
 
 # whether to show a table of contents
 # can be overridden in a page's front-matter
@@ -47,13 +49,13 @@ site = ""
 [languages]
 [languages.en]
 languageName = "English"
-title = "SunkenPotato"
+title = "sp"
 
 [languages.en.params]
-subtitle = "SunkenPotato's website"
-owner = "SunkenPotato"
+subtitle = "sp's website"
+owner = "sp"
 keywords = ""
-copyright = "2024 SunkenPotato"
+copyright = "2024 Piro Bakallbashi"
 menuMore = "Show more"
 readMore = "Read more"
 readOtherPosts = "Read other posts"

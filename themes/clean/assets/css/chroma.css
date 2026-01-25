@@ -1,0 +1,112 @@
+/* Swiss-style Chroma Dark Theme */
+
+/* Background */
+.chroma * {
+    color: #fff;
+}
+
+/* PreWrapper */
+.chroma {
+    background-color: #121212; /* dark neutral background */
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 4px;
+}
+
+/* Line wrapper */
+.chroma .line { display: flex; }
+
+/* Line numbers */
+.chroma .ln, .chroma .lnt {
+    color: #888;
+    user-select: none;
+    padding: 0 0.5em;
+    text-align: right;
+}
+
+/* Keywords */
+.chroma .k,
+.chroma .kc,
+.chroma .kd,
+.chroma .kn,
+.chroma .kp,
+.chroma .kr,
+.chroma .kt,
+.chroma .nb,
+.chroma .bp {
+    color: var(--red);
+    font-weight: 500;
+}
+
+/* Classes, constants */
+.chroma .nc,
+.chroma .no {
+    color: #72bbd8;
+}
+
+/* Functions */
+.chroma .nf,
+.chroma .fm {
+    color: #72bbd8;
+}
+
+/* Strings */
+.chroma .s,
+.chroma .sa,
+.chroma .sb,
+.chroma .sc,
+.chroma .sd,
+.chroma .s1,
+.chroma .s2,
+.chroma .se,
+.chroma .sh,
+.chroma .si,
+.chroma .sx,
+.chroma .sr {
+    color: #fff;
+}
+
+/* Numbers */
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .il,
+.chroma .mo {
+    color: #72bbd8;
+}
+
+/* Operators & punctuation */
+.chroma .o,
+.chroma .ow,
+.chroma .p {
+    color: var(--red);
+}
+
+/* Comments */
+.chroma .c,
+.chroma .ch,
+.chroma .cm,
+.chroma .c1,
+.chroma .cs,
+.chroma .cp,
+.chroma .cpf {
+    color: #666; /* subtle gray for Swiss neutrality */
+    font-style: italic;
+}
+
+/* Generic / special */
+.chroma .gd { color: white; background-color: var(--red); }
+.chroma .gi { color: white; background-color: #72bbd8; }
+.chroma .ge { font-style: italic; color: #fff; }
+.chroma .gl { text-decoration: underline; }
+
+/* Text whitespace */
+.chroma .w { color: white; }
+
+/* Links / attributes */
+.chroma .na { color: var(--red); }
+.chroma .nd { color: #72bbd8; }
+.chroma .nt { color: var(--red); }
+.chroma .nv, .chroma .vc, .chroma .vg, .chroma .vi { color: var(--red); }

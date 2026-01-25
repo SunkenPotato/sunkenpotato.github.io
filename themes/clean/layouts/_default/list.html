@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <span>{{ .Description }}</span>
+    {{ if .Params.tags }}
+        <span class="post-tags">
+        {{ range .Params.tags }}
+        #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+            {{- . -}}
+        </a>&nbsp;
+        {{ end }}
+        </span>
+    {{ end }}
+  {{ end }}
+{{ end }}

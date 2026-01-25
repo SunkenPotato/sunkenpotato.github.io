@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="css/photos.css" />
+<!-- AE -- !-->
+<div class="photo-gallery">
+    {{ $bundle := .Site.GetPage "page" "photos" }} {{ $images :=
+    $bundle.Resources.ByType "image" }} {{ if $images }} {{ $sorted := sort
+    $images ".Exif.Date" "desc" }} {{ range $sorted }}
+    <div class="image-wrapper">
+        <a href="{{ .RelPermalink }}" class="excl">
+            <img src="{{ .RelPermalink }}" alt="{{ .Name }}" class="image" />
+        </a>
+        <span class="image-desc"><i>{{ .Exif.Tags.ImageDescription }}</i></span>
+    </div>
+    {{ end }} {{ else }}
+    <p>No images found.</p>
+    {{ end }}
+</div>
